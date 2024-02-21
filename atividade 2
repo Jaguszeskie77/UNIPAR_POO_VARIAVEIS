@@ -1,0 +1,18 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+String nomeProduto
+double preçoProduto
+char marcaDoProduto
+short quantidadeProduto
+String descricaoProduto
+String NomeProduto
+Short numeroProduto
+double precoDoProduto
+short estoqueDisponivel
+short totalDeProdutos
+     }
+}
