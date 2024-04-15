@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+       int primNumero;
+       int segNumero;
+       int subTotal;
+        
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Informe 2 numeros de sua escolha:  ");
+        primNumero = scanner.nextInt();
+        segNumero = scanner.nextInt();
+     
+    
+      
+        scanner.close();
+        
+        subTotal = primNumero - segNumero;
+        
+        System.out.println("A subtracao dos numeros escolhidos e: " + subTotal);
+    }
+}
