@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+         int primNumero;
+         int segNumero;
+         int soma;
+         int sub;
+         double divisao;
+         int multi;
+    
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Informe dois numeros de sua escolha:  ");
+        primNumero = scanner.nextInt();
+        segNumero = scanner.nextInt();
+        
+        scanner.close();
+        
+        soma = primNumero + segNumero;
+        sub = primNumero - segNumero;
+        divisao = primNumero/segNumero;
+        multi = primNumero * segNumero;
+        
+        
+        
+        System.out.println("a soma dos numeros e igual a: " + soma);
+        System.out.println("a subtracao do numeros e igual a: " + sub);
+        System.out.println("a divisao dos numeros e igual a: " + divisao);
+        System.out.println("a multiplicacao dos numeros e igual a: " + multi);
+ 
+}
+}
