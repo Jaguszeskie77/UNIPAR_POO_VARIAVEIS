@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+       double primNota;
+       double segNota;
+       double total;
+        
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Informe as duas notas:  ");
+        primNota = scanner.nextDouble();
+        segNota = scanner.nextDouble();
+     
+    
+      
+        scanner.close();
+        
+        total = (primNota + segNota)/2;
+        
+        System.out.println("A medias das notas e: " + total);
+    }
+}
